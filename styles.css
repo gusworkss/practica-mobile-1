@@ -25,6 +25,7 @@ body {
     background-color: var(--main-color);
 }
 
+/*=====================HEADER===============================*/
 .main-nav {
     width: 80%;
     height: 70px;
@@ -80,4 +81,50 @@ div .search-button {
     background-position-x: center;
     background-position-y: center ;
 }
+
+/*=====================HERO===============================*/
+
+.hero {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+}
+.hero h1 {
+    font-family: var(--font-base);
+    font-size: 3.5rem;
+    font-weight: 600;
+    justify-self: center;
+    margin-top: 150px;
+    color: whitesmoke;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+}
+.hero h2 {
+    font-family: var(--font-base);
+    font-size: 5rem;
+    justify-self: center;
+    color: whitesmoke;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+}
+.cta-button {
+    width: 250px;
+    height: 50px;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px ;
+    cursor: pointer;
+
+    background: transparent;
+    border: solid var(--forth-color);
+    border-radius: 10px;
+    outline-style: none;
+
+    color: var(--forth-color);
+    font-family: var(--font-base);
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
 
