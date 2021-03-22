@@ -3,6 +3,7 @@
     --second-color: #2D64FA;
     --third-color: #0E7BE6;
     --forth-color: #5FD4FA;
+    --forth-color-t: #5fd3fa94;
     --font-base:'Montserrat', sans-serif;
 }
 
@@ -85,17 +86,23 @@ div .search-button {
 /*=====================HERO===============================*/
 
 .hero {
-    width: 80%;
+    width: 100%;
     height: 100vh;
     display: flex;
     margin: 0 auto;
 }
+
+.hero__h1-container {
+    width: 100%;
+}
+
 .hero h1 {
     font-family: var(--font-base);
     font-size: 3.5rem;
     font-weight: 600;
     justify-self: center;
-    margin-top: 150px;
+    margin-top: 130px;
+    margin-left: 200px;
     color: whitesmoke;
     flex-wrap: wrap;
     text-transform: uppercase;
@@ -104,6 +111,7 @@ div .search-button {
     font-family: var(--font-base);
     font-size: 5rem;
     justify-self: center;
+    margin-left: 200px;
     color: whitesmoke;
     flex-wrap: wrap;
     text-transform: uppercase;
@@ -113,8 +121,10 @@ div .search-button {
     height: 50px;
     align-self: flex-start;
     flex-wrap: wrap;
-    margin-top: 20px ;
+    margin-top: 10px ;
+    margin-left: 200px;
     cursor: pointer;
+    
 
     background: transparent;
     border: solid var(--forth-color);
@@ -128,3 +138,41 @@ div .search-button {
 }
 
 
+/* .contact-form {
+    display: flex;
+    align-self: flex-end;
+    width: 350px;
+    height: 450px;
+    background-color: whitesmoke;
+ } */
+
+
+.hero .cards-container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    justify-content: center;
+    
+}
+
+.product-card {
+    width: 200px;
+    height: 250px;
+    background-color: var(--forth-color-t);
+    margin-right: 30px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.product-card {
+    text-align: center;
+}
+
+.icon-card {
+
+    background-color: violet;
+    background-image: url(./assets/icons/estadisticas.svg) no-repeat;
+    background-size: ;
+}
