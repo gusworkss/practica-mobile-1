@@ -74,5 +74,10 @@ div .search-button {
     outline-style: none;
     cursor: pointer;
     text-indent: 5px;
+    background-image: url(./assets/icons/lupa.svg);
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position-x: center;
+    background-position-y: center ;
 }
 
