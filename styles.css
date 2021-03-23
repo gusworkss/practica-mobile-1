@@ -44,6 +44,11 @@ body {
     text-decoration: none;
 }
 
+.main-nav span a:hover {
+    box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.13);
+}
+
+
 .nav-menu {
     display: flex;
     font-size: 1.4rem;
@@ -52,9 +57,14 @@ body {
     list-style: none;
 }
 .nav-menu li a {
-    padding: 35px 30px;
+    padding: 30px 30px;
     text-decoration: none;
     color: whitesmoke;
+}
+
+.nav-menu li a:hover {
+    border: solid var(--forth-color);
+
 }
 
 div .search-bar {
@@ -81,6 +91,10 @@ div .search-button {
     background-size: 15px 15px;
     background-position-x: center;
     background-position-y: center ;
+}
+
+div .cta-button:hover {
+    box-shadow: 15px 15px 15px rgba(8, 206, 255, 0.13);
 }
 
 /*=====================HERO===============================*/
@@ -226,7 +240,7 @@ div .search-button {
 .text-container {
     width: 50%;
     height: 250px;
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
@@ -236,22 +250,35 @@ div .search-button {
     font-size: 1.3rem;
     text-align: justify;
     justify-content: center;
+    line-height: 2.5rem;
 }
 
-.graphic-container span {
+.text-container span {
     font-family: var(--font-base);
-    font-size: 1.3rem;
-    text-align: justify;
-    justify-content: center;
+    font-size: 1.5rem;
+    /* text-align: justify;
+    justify-content: center; */
+    font-weight: 600;
+}
+
+.text-container li {
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+
 }
 
 .grapic-image {
-    width: 40%;
-    height: 290px;
-    border-radius: 5px;
+    min-width: 40%;
+    min-height: 290px;
+    border-radius: 8px;
     box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.13);
     background-image: url(./assets/img/graphic-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/*=======EFECTOS========*/
+
